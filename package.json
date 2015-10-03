@@ -1,28 +1,24 @@
 {
   "name": "hubot-events",
   "description": "Hubot script to call and register hubot events",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "René Filip <renefilip@mail.com>",
   "license": "MIT",
-
   "keywords": "hubot, hubot-scripts, events, event, cron, crontab, cronjob, jobs, emit, on",
-
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-events.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-events/issues"
   },
-
   "dependencies": {
+    "cron": "^1.0.9",
+    "human-to-cron": "^0.1.7"
   },
-
   "peerDependencies": {
     "hubot": "2.x"
   },
-
   "devDependencies": {
     "chai": "^2.1.1",
     "coffee-script": "1.6.3",
@@ -37,9 +33,7 @@
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
