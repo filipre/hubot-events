@@ -1,16 +1,16 @@
 {
   "name": "hubot-events",
   "description": "Hubot script to call and register hubot events",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "René Filip <renefilip@mail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, events, event, cron, crontab, cronjob, jobs, emit, on",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-events.git"
+    "url": "git://github.com/filipre/hubot-events.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-events/issues"
+    "url": "https://github.com/filipre/hubot-events/issues"
   },
   "dependencies": {
     "cron": "^1.0.9",
